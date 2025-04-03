@@ -1,0 +1,41 @@
+{
+  "name": "freebot",
+  "version": "1.0.0",
+  "description": "AI-powered customer service automation platform",
+  "private": true,
+  "scripts": {
+    "build": "npm run build:frontend && npm run build:backend",
+    "build:frontend": "cd apps/frontend && npm run build",
+    "build:backend": "cd apps/backend && npm run build",
+    "start": "cd apps/backend && npm run start:prod",
+    "dev": "concurrently \"npm run dev:frontend\" \"npm run dev:backend\"",
+    "dev:frontend": "cd apps/frontend && npm run dev",
+    "dev:backend": "cd apps/backend && npm run start:dev",
+    "test": "npm run test:frontend && npm run test:backend",
+    "test:frontend": "cd apps/frontend && npm test",
+    "test:backend": "cd apps/backend && npm test",
+    "lint": "eslint \"**/*.{js,jsx,ts,tsx}\"",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+  },
+  "dependencies": {
+    "@solana/web3.js": "^1.87.6",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^18.4.3",
+    "@commitlint/config-conventional": "^18.4.3",
+    "@types/node": "^20.10.5",
+    "@typescript-eslint/eslint-plugin": "^6.15.0",
+    "@typescript-eslint/parser": "^6.15.0",
+    "concurrently": "^8.2.2",
+    "eslint": "^8.56.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.1.0",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "prettier": "^3.1.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+} 

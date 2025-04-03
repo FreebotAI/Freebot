@@ -1,12 +1,14 @@
 # Freebot - AI Customer Service Automation Platform
 
 <div align="center">
-  <img src="assets/images/freebot-logo.png" alt="Freebot Logo" width="200" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/images/freebot-logo.svg#gh-dark-mode-only">
+    <source media="(prefers-color-scheme: light)" srcset="assets/images/freebot-logo.svg#gh-light-mode-only">
+    <img src="assets/images/freebot-logo.svg" alt="Freebot Logo" width="300" height="300">
+  </picture>
 
-  [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
   [![Website](https://img.shields.io/badge/Website-freebot.website-blue)](https://www.freebot.website)
-  [![Twitter](https://img.shields.io/badge/Twitter-Freebot-blue)](https://www.freebot.website)
-  [![GitHub](https://img.shields.io/badge/GitHub-FreebotAI-blue)](https://github.com/FreebotAI/Freebot)
+  [![Twitter](https://img.shields.io/badge/Twitter-Freebot__AI-blue)](https://x.com/Freebot_AI)
 </div>
 
 ## Overview
@@ -168,17 +170,11 @@ PUT    /api/user/update
 
 ## Contributing
 
-We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.md) for details.
+We welcome contributions! Please see our Contributing Guidelines for details.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Contact
-
-- Website: [freebot.website](https://www.freebot.website)
-- Twitter: [@FreebotAI](https://www.freebot.website)
-- GitHub: [FreebotAI/Freebot](https://github.com/FreebotAI/Freebot)
+This project is licensed under the MIT License - see the LICENSE file for details.
 
 ---
 

@@ -8,7 +8,7 @@
   </picture>
 
   [![Website](https://img.shields.io/badge/Website-freebot.website-blue)](https://www.freebot.website)
-  [![Twitter](https://img.shields.io/badge/Twitter-Freebot__xyz-blue)](@https://x.com/Freebot_xyz)
+  [![Twitter](https://img.shields.io/badge/Twitter-Freebot__xyz-blue)](https://x.com/Freebot_xyz)
 </div>
 
 ## Overview

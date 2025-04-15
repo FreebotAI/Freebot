@@ -1,4 +1,4 @@
-# Freebot - AI Customer Service Automation Platform
+# Freebot - AI Customer Service Automation Platform v1.01
 
 <div align="center">
   <picture>

@@ -2,9 +2,7 @@
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/images/freebot-logo.svg#gh-dark-mode-only">
-    <source media="(prefers-color-scheme: light)" srcset="assets/images/freebot-logo.svg#gh-light-mode-only">
-    <img src="assets/images/freebot-logo.svg" alt="Freebot Logo" width="300" height="300">
+    <img src="assets/images/freebot-logo.jpg" alt="Freebot Logo" width="300" height="300">
   </picture>
 
   [![Website](https://img.shields.io/badge/Website-freebot.website-blue)](https://www.freebot.website)
